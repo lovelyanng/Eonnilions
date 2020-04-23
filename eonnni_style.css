@@ -1,0 +1,125 @@
+
+@font-face{ font-family:ng; src:url(NanumGothic.eot); src:local(※), url(NanumGothic.woff) format(‘woff’);
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 30px;
+}
+.container{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.cell{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 40px;
+    font-size: 50px;
+}
+
+li {
+    list-style-type: none;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 34px 0px rgba(122,101,61,0.56);
+    }
+    
+
+.cell-2, .cell-3, .cell-4{
+    list-style-type: none;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.cell-1{
+ background-color: #ff5f2e;
+ grid-column: 1/ span 3;
+ height: 370px;
+}
+
+.cell-2{
+    background-color: #FFDF55;
+}
+
+.cell-3{
+    background-color: #FFE57B;
+}
+
+.cell-4{
+    background-color: #FFF1B5;
+    
+}
+
+.cell-5{
+    background-color:#FFC455;
+    grid-column: 1/span 3;
+    height: 330px;
+}
+
+.cell-6{
+    background-color: #D81159;
+}
+
+.cell-7{
+    background-color: #9055A2;
+}
+
+.cell-8{
+    background-color:#DE6449;
+}
+
+.cell-9{
+    background-color: #4F86C6;
+}
+
+blockquote{
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.img1, .img2, .img3 {
+    resize:both;
+    float: center;
+    max-width: 150px;
+    margin: 5px;
+}
+
+p {margin-top: 10px;
+    margin-bottom: 0px;}
+
+a:link {color:gray; text-decoration: none;
+}
+a:hover {color: #FF9655;}
+
+.과1, .과2, .과3 {color: gray}
+
+.태경벗사진 {
+    resize:both;
+    float: center;
+    max-width: 270px;
+}
+
+.언니사자사진 {
+    resize:both;
+    float: center;
+    max-width: 200px;
+    margin: 5px;
+}
+
+.titlepic {
+    display: block;
+    margin: 0px auto;
+}

@@ -5,6 +5,7 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
     line-height: 30px;
+    background-color: #FFF9ED;
 }
 .container{
     width: 70%;
@@ -80,6 +81,7 @@ p {margin-top: 10px;
 a:link {color:gray; text-decoration: none;
 }
 a:hover {color: #FF9655;}
+a:visted {color: gray;}
 
 .과1, .과2, .과3 {
     font-size: 20px;

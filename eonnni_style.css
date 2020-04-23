@@ -31,7 +31,7 @@ li {
     text-align: center;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 1px 1px 34px 0px rgba(122,101,61,0.56);
+    box-shadow: 1px 1px 12px 0px rgba(122,101,61,0.56);
     }
     
 
@@ -47,7 +47,7 @@ li {
 .cell-1{
  background-color: #ff5f2e;
  grid-column: 1/ span 3;
- height: 370px;
+ height: 385px;
 }
 
 .cell-2{
@@ -69,32 +69,9 @@ li {
     height: 330px;
 }
 
-.cell-6{
-    background-color: #D81159;
-}
-
-.cell-7{
-    background-color: #9055A2;
-}
-
-.cell-8{
-    background-color:#DE6449;
-}
-
-.cell-9{
-    background-color: #4F86C6;
-}
-
 blockquote{
-    font-size: 20px;
-    line-height: 0px;
-}
-
-.img1, .img2, .img3 {
-    resize:both;
-    float: center;
-    max-width: 150px;
-    margin: 5px;
+    font-size: 22px;
+    font-weight: lighter;
 }
 
 p {margin-top: 10px;
@@ -104,7 +81,16 @@ a:link {color:gray; text-decoration: none;
 }
 a:hover {color: #FF9655;}
 
-.과1, .과2, .과3 {color: gray}
+.과1, .과2, .과3 {
+    font-size: 20px;
+    color: gray
+}
+
+.img1, .img2, .img3{
+    resize:both;
+    float: center;
+    max-width: 170px;}
+
 
 .태경벗사진 {
     resize:both;
@@ -116,7 +102,7 @@ a:hover {color: #FF9655;}
     resize:both;
     float: center;
     max-width: 200px;
-    margin: 5px;
+    margin: 0px;
 }
 
 .titlepic {
